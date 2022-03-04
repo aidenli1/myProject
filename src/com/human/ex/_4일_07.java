@@ -38,5 +38,51 @@ public class _4일_07 {
 //	int i#2 = 5; /x
 //	int MYCATAGE = 10; /x
 		
+//	int a= 1;
+//	a += 3; // a = a+3; 과 같은 의미 하지만 전자는 잘 쓰지 않음  
+//	System.out.println(a);
+	
+//	int a = (5>6)? 3+1 : 4+5;
+//	System.out.print(a);
+		
+//	int a;
+//	a=6; a= a+2;
+//	System.out.println(a);
+	
+//	int a =5, b, c;
+//	b=--a; c=a++;
+//	System.out.println(a);
+//	System.out.println(b);
+//	System.out.println(c);
+	
+//		int a =5, b, c;
+//		b=++a; c=a++;
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(c);
+		
+		
+//	int a =3, b =4;
+//	a=(++a)*2;
+//	b=(b--)*3;
+//	System.out.println(a);
+//	System.out.println(b);
+	
+//	int a =5,b,c;
+//	b = ++a; c = a--;
+//	System.out.println(a);
+//	System.out.println(b);
+//	System.out.println(c);
+//	System.out.println(c);
+	
+//	int i = 10;
+//	++i;
+//	i++;
+//	--i;
+//	i--;
+//	System.out.println(i);
+
+		
+		
 	}
 }
