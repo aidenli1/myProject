@@ -4,19 +4,20 @@ public class _4일_07 {
 
 	public static void main(String[] args) {
 		//문제 1
-////	String str = "이름 : 홍길동"; String str2 = "나이 : 29";
-//	String str3 = "키 : 170";
+////	String str = "이름 : 홍길동"; String int = "나이 : 29";
+//	String double = "키 : 170";
 //	System.out.println(str + str2 +str3);
 		
 		//문제 2
 		/*
 		정수자료형 : byte,short,int,long
-		상수자료형 : 
+		실수자료형 : double
 		문자자료형 : char
 		불리언자료형 : boolean
 			*/
+		
 		//문제 3
-//		10 =
+//		10 = int
 //		1.= double형
 //		6F= float형 상수 
 //		23d=double 상수 
