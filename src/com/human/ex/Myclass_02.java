@@ -45,7 +45,7 @@ public class Myclass_02 {
 //	System.out.println((sum1 / 100)+"cm입니다.");
 	
 		
-		문제4
+		//문제4
 	//java.util.Scanner sc = new java.util.Scanner(System.in);
 //	System.out.print("잔디 1 제곱에 값은?>>");
 //	String a = sc.nextLine();
@@ -109,17 +109,15 @@ public class Myclass_02 {
 //		
 //		System.out.println(a*b*c);
 		
-//		java.util.Scanner sc = new java.util.Scanner(System.in);
-//		System.out.print("박스 개수>>");
-//		int a = Integer.parseInt(sc.nextLine());
-//		System.out.print("낱개 개수>>");
-//		int b = Integer.parseInt(sc.nextLine());
-//		int sum1 = a *12; //박
-//		int sum2 = 1;
-//		int sum3 = sum2 *
-//		int money = 1000;
-//		
-//		System.out.println((sum1*money)+(sum3));
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		System.out.print("박스 개수>>");
+		int a = Integer.parseInt(sc.nextLine());
+		System.out.print("낱개 개수>>");
+		int b = Integer.parseInt(sc.nextLine());
+		int sum1 = a *12; //박
+		int money = 1000;
+		int sum2 = 1 * money;
+		System.out.println((sum1*money)+(sum2));
 		
 		
 		
@@ -133,14 +131,7 @@ public class Myclass_02 {
 		
 		
 		
-		
-		
-//		System.out.println("how many box>>");
-//		String box = sc.nextLine();
-//		int b = Integer.parseInt(box);
-//		
-//		System.out.println(b+"박스와 "+(b*12)+"자루 "+(b*12*1000)+"원 이다");
-		
+	
 		
 		
 		
