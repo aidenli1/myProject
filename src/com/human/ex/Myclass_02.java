@@ -92,6 +92,21 @@ public class Myclass_02 {
 //		
 //		System.out.println((a+b+c)/3);
 		
+//		double kor = 0;
+//		double eng = 0;
+//		double math = 0;
+//		double avg = 0;
+//		java.util.Scanner sc = new java.util.Scanner(System.in);
+//		System.out.print("국어점수>>");
+//		kor = Double.parseDouble(sc.nextLine());
+//		System.out.print("영어점수>>");
+//		eng = Double.parseDouble(sc.nextLine());
+//		System.out.print("수학점수>>");
+//		math = Double.parseDouble(sc.nextLine());
+//		avg =(kor+eng+math)/3.;
+//		System.out.println(kor +":"+ eng +":"+ math+":"+ avg);
+//		
+		
 //		answp8
 //		java.util.Scanner sc = new java.util.Scanner(System.in);
 //		System.out.print("키 입력>>");
@@ -109,18 +124,55 @@ public class Myclass_02 {
 //		
 //		System.out.println(a*b*c);
 		
-		java.util.Scanner sc = new java.util.Scanner(System.in);
-		System.out.print("박스 개수>>");
-		int a = Integer.parseInt(sc.nextLine());
-		System.out.print("낱개 개수>>");
-		int b = Integer.parseInt(sc.nextLine());
-		int sum1 = a *12; //박
-		int money = 1000;
-		int sum2 = 1 * money;
-		System.out.println((sum1*money)+(sum2));
 		
 		
 		
+//		double width = 0;
+//		double depth = 0;
+//		double heigth = 0;
+//		double result = 0;
+//		
+//		java.util.Scanner sc = new java.util.Scanner(System.in);
+//		System.out.print("넓이입력>>");
+//		width = Double.parseDouble(sc.nextLine());
+//		System.out.print("깊이입력>>");
+//		depth = Double.parseDouble(sc.nextLine());
+//		System.out.print("높이입력>>");
+//		heigth = Double.parseDouble(sc.nextLine());
+//		result =(width*depth*heigth);
+//		System.out.println(result);
+		
+		
+	
+		
+		//문제10
+		
+//		java.util.Scanner sc = new java.util.Scanner(System.in);
+//		System.out.print("박스 개수>>");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("낱개 개수>>");
+//		int b = Integer.parseInt(sc.nextLine());
+//		int sum1 = a *12; //박
+//		int money = 1000;
+//		int sum2 = 1 * money;
+//		System.out.println((sum1*money)+(sum2));
+		
+		
+//		
+//		double box = 0;
+//		double dot = 0;
+//		double price = 0;
+//		double yeap = 0;
+//		
+//		java.util.Scanner sc = new java.util.Scanner(System.in);
+//		System.out.print("how many box>>");
+//		box = Double.parseDouble(sc.nextLine());
+//		System.out.print("more dot?>>");
+//		dot = Double.parseDouble(sc.nextLine());
+//		System.out.print("1 dot price>>");
+//		price = Double.parseDouble(sc.nextLine());
+//		yeap =((box*10+dot)*price);
+//		System.out.println(yeap);
 		
 		
 		
