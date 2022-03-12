@@ -30,6 +30,9 @@ public class Myclass_05 {
 //	System.out.println("메뉴가격 :"+c1.price);
 //	System.out.println("메뉴 칼로리 :"+c1.kcal);
 		
+		
+		
+		
 //	String name = "교촌 허니 콤보";
 //	int price = 19000;
 //	int kcal = 2700;
@@ -41,9 +44,9 @@ public class Myclass_05 {
 //	String name3 = "bhc 황금 올리브";
 //	int price3 = 18000;
 //	int kcal3 = 2750;
-//	
+//		
+//		
 //	System.out.println("메뉴이름 :"+name)
-//	
 	
 	Car c1 = new Car();
 	c1. name = "소나타";
