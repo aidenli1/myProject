@@ -1,6 +1,7 @@
 package com.human_01; //3.11금 조건문 if
 
-import java.nio.charset.CoderResult;
+
+//import java.nio.charset.CoderResult;
 
 public class Javaclass_04 {
 
@@ -84,17 +85,16 @@ public class Javaclass_04 {
 		
 //		java.util.Scanner sc = new java.util.Scanner(System.in);
 //		System.out.println("첫 수 입력>>");
-//		String s = sc.nextLine();
-//		int i = Integer.parseInt(s);
+//		int i = Integer.parseInt(sc.nextLine());
 //		
-//		java.util.Scanner sc1 = new java.util.Scanner(System.in);
 //		System.out.println("두번째 수 입력>>");
-//		String x = sc.nextLine();
-//		int g = Integer.parseInt(x);
+//		int g = Integer.parseInt(sc.nextLine());
 //		
 //		
 //		if(i>g) {
 //			System.out.println(i-g);
+//		}else {
+//			System.out.println(g-i);
 //		}
 		
 			//Q7
@@ -156,8 +156,73 @@ public class Javaclass_04 {
 //		}else {
 //			System.out.println(c);
 //		}
+
+//		java.util.Scanner sc = new java.util.Scanner(System.in);
+//		
+//		int i = Integer.parseInt(sc.nextLine());
+//		
+//		int a = 11,  b = 14;
+//		
+//		if(i==0) {
+//			a=5;
+//		}else {
+//			b=a+3;
+//		}
+//		System.out.println(a);
+//		System.out.println(b);
 		
 		
+//		java.util.Scanner sc = new java.util.Scanner(System.in);
+//		System.out.println("kor >>");
+//		int kor = Integer.parseInt(sc.nextLine());
+//		System.out.println("eng >>");
+//		int eng = Integer.parseInt(sc.nextLine());
+//		System.out.println("math >>");
+//		int math = Integer.parseInt(sc.nextLine());
+//		
+//		int avg = (kor+eng+math)/3;
+//		
+//		if (avg>=80) {
+//			System.out.println("합격");
+//			
+//		}else {
+//			System.out.println("불합격");
+//		}
+		
+	
+		
+//		boolean b1 = 5!=3;
+//		boolean b2 = 5==3;
+//		
+//		if(b1) {
+//			if(b2) {
+//				System.out.println("1");
+//			}else {
+//				System.out.println("2");
+//			}
+//		}else {
+//			System.out.println("3");
+//			System.out.println("4");
+//		}
+		
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		int num1 = Integer.parseInt(sc.nextLine());
+		int num2 = Integer.parseInt(sc.nextLine());
+		int num3 = Integer.parseInt(sc.nextLine());
+		
+		if(num1>num2) { //num1이 큼
+			if(num1>num3) { //num1이 가장큼
+				System.out.println(num1);
+			}else {
+				System.out.println(num3);
+			}
+		}else {//num2가 큼
+			if(num2>num3) {//num2가 가장큼
+				System.out.println(num2);
+			}else {
+				System.out.println(num3);
+			}
+		}
 		
 		
 
