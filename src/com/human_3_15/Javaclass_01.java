@@ -389,7 +389,7 @@ public class Javaclass_01 {
 //				
 //				double a = (((x-100)*0.9)/y)*100;
 //				
-//				if (age<20) {//민자
+//				if (age<20) {
 //					if(a>120) {
 //						System.out.println("정상 체중");
 //					}else if (a>=120&&a<=130) {
@@ -500,16 +500,17 @@ public class Javaclass_01 {
 //		System.out.println(((int)(Math.random()*5+6)));
 		
 			//Q14.로또
+		
 //		System.out.println(((int)(Math.random()*45+1)));
 //		System.out.println(((int)(Math.random()*45+1)));
 //		System.out.println(((int)(Math.random()*45+1)));
 //		System.out.println(((int)(Math.random()*45+1)));
 //		System.out.println(((int)(Math.random()*45+1)));
 //		System.out.println(((int)(Math.random()*45+1)));
+		
+		
 		
 			//Q15.
-		
-		
 		
 		
 //		int a = ((int)(Math.random()*3+1)); //찌
@@ -530,35 +531,35 @@ public class Javaclass_01 {
 		//Q16
 		
 		
-		java.util.Scanner sc = new java.util.Scanner(System.in);
-		
-		System.out.println("값 입력(만단위생략) >>>>");
-		double x = Double.parseDouble(sc.nextLine());
-		
-		
-		double a = (x*600);
-		double b = (x*1500);
-		double c = (x*2400);
-		double d = (x*3500);
-		double f = (x*3800);
-		double e = (x*4000);
-		double g = (x*4200);
-		
-		if(x<=1200) {
-			System.out.println("낼 세금은 "+a+"원 입니다.");
-		}else if (x>= 1200 && x<= 4600) {
-			System.out.println("낼 세금은 "+b+"원 입니다.");
-		}else if (x> 4600 && x<= 8800) {
-			System.out.println("낼 세금은 "+c+"원 입니다.");
-		}else if (x> 8800 && x<= 150000) {
-			System.out.println("낼 세금은 "+d+"원 입니다.");
-		}else if (x> 15000 && x<= 30000) {
-			System.out.println("낼 세금은 "+e+"원 입니다.");
-		}else if (x> 30000 && x<= 50000) {
-			System.out.println("낼 세금은 "+f+"원 입니다.");
-		}else {
-			System.out.println("낼 세금은 "+g+"원 입니다.");
-		}
+//		java.util.Scanner sc = new java.util.Scanner(System.in);
+//		
+//		System.out.println("값 입력(만단위생략) >>>>");
+//		double x = Double.parseDouble(sc.nextLine());
+//		
+//		
+//		double a = (x*600);
+//		double b = (x*1500);
+//		double c = (x*2400);
+//		double d = (x*3500);
+//		double f = (x*3800);
+//		double e = (x*4000);
+//		double g = (x*4200);
+//		
+//		if(x<=1200) {
+//			System.out.println("낼 세금은 "+a+"원 입니다.");
+//		}else if (x>= 1200 && x<= 4600) {
+//			System.out.println("낼 세금은 "+b+"원 입니다.");
+//		}else if (x> 4600 && x<= 8800) {
+//			System.out.println("낼 세금은 "+c+"원 입니다.");
+//		}else if (x> 8800 && x<= 150000) {
+//			System.out.println("낼 세금은 "+d+"원 입니다.");
+//		}else if (x> 15000 && x<= 30000) {
+//			System.out.println("낼 세금은 "+e+"원 입니다.");
+//		}else if (x> 30000 && x<= 50000) {
+//			System.out.println("낼 세금은 "+f+"원 입니다.");
+//		}else {
+//			System.out.println("낼 세금은 "+g+"원 입니다.");
+//		}
 		
 		
 		
@@ -679,6 +680,19 @@ public class Javaclass_01 {
 		
 		
 		
+		//Q14
+		
+//		int input = 60000000;
+//		int tax=0;
+//		if(input>500000000) {
+//			tax = (int)((input-500000000)*0.42);
+//			input = 500000000;
+//		} 
+//		
+//		if(input>300000000) {
+//			tax = tax+(int)((input-300000000)*0.40);
+//			input=300000000;
+//		}
 		
 		
 		
@@ -687,15 +701,61 @@ public class Javaclass_01 {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//		java.util.Scanner sc = new java.util.Scanner(System.in);
+//		
+//		System.out.println("값 입력(만단위생략) >>>>");
+//		double money = Double.parseDouble(sc.nextLine());
+//		
+//		
+//		System.out.println("―――――――――――――――――――누진공제액 차감 방식――――――――――――――――――――――――");
+//		int taxOri,dedu;
+//		int tax = 0;
+//		if(money<=12000000) { 
+//			tax=(int)(money*0.06); 
+//			System.out.println(String.format("%d원입니다",tax));
+//		}else if(money<46000000) {
+//			taxOri=(int)(money*0.15);
+//			dedu=1080000;
+//			tax=taxOri-dedu;			
+//			System.out.println(String.format("기본세금 %d에서 누진공제액 %d을 차감한",taxOri,dedu));			
+//			System.out.println(String.format("%d원 입니다",tax));
+//		}else if(money<88000000) {
+//			taxOri=(int)(money*0.24);
+//			dedu=5220000;
+//			tax=taxOri-dedu;			
+//			System.out.println(String.format("기본세금 %d에서 누진공제액 %d을 차감한",taxOri,dedu));			
+//			System.out.println(String.format("%d원 입니다",tax));
+//		}else if(money<150000000) {			 
+//			taxOri=(int)(money*0.35);
+//			dedu=14900000;
+//			tax=taxOri-dedu;			
+//			System.out.println(String.format("기본세금 %d에서 누진공제액 %d을 차감한",taxOri,dedu));			
+//			System.out.println(String.format("%d원 입니다",tax));
+//		}else if(money<300000000) {			
+//			taxOri=(int)(money*0.38);
+//			dedu=19400000;
+//			tax=taxOri-dedu;			
+//			System.out.println(String.format("기본세금 %d에서 누진공제액 %d을 차감한",taxOri,dedu));			
+//			System.out.println(String.format("%d원 입니다",tax));
+//		}else if(money<500000000) {			
+//			taxOri=(int)(money*0.4);
+//			dedu=25400000;
+//			tax=taxOri-dedu;			
+//			System.out.println(String.format("기본세금 %d에서 누진공제액 %d을 차감한",taxOri,dedu));			
+//			System.out.println(String.format("%d원 입니다",tax));
+//		}else {			
+//			taxOri=(int)(money*0.42);
+//			dedu=35400000;
+//			tax=taxOri-dedu;			
+//			System.out.println(String.format("기본세금 %d에서 누진공제액 %d을 차감한",taxOri,dedu));			
+//			System.out.println(String.format("%d원 입니다",tax));
+//		}
+//	}
+//
+//		
+//		
+//		
+//}	
 		
 		
 		
