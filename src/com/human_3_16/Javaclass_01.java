@@ -219,6 +219,170 @@ public class Javaclass_01 {
 //		}System.out.println(sum);
 		
 		
+		//Q1
+		
+//		System.out.println("01");
+//		System.out.println("02");
+//		System.out.println("03");
+		
+		//Q2
+		
+//		int a = 2;
+//		
+//		switch(a) {
+//		case 1 :
+//			System.out.println("00");
+//			break;
+//		case 2 :
+//			System.out.println("01");
+//		
+//			System.out.println("02");
+//		
+//			System.out.println("04");
+//			break;
+//			
+//			default :
+//				System.out.println("xx");
+//		
+//		}
+		
+//		//Q3
+//		
+//		int sum =0;
+//		
+//		for(int i = 1;i<3;i++) {
+//			if(i%1==0) {
+//				sum=sum+i;
+//				System.out.println("0"+sum);
+//			}
+//		}
+//		
+//		//Q3_01
+//		
+//		for(int i = 1;i<4;i++) {
+//			
+//				System.out.println("0"+i);
+//			
+//		}
+		
+//		//Q3_02
+//		
+//		int a= 0;
+//		System.out.println("01");
+//		while(a<1) {
+//			System.out.println("02");
+//			a++;
+//		}
+//	
+//		System.out.println("03");
+//		
+//		
+//		
+//		//Q3_03
+//		
+//		int a= 0;
+//		System.out.println("01");
+//		while(a<3) {
+//			System.out.println("02");
+//			a++;
+//		}
+//	
+//		System.out.println("03");
+		
+		
+		//문제1
+		
+//		int a = 0;
+//		System.out.println("1");
+//		
+//		while(a<1) {
+//			System.out.println("2");
+//			a++;
+//		}
+//		System.out.println("3");
+//		
+//		int a1 = 0;
+//		System.out.println("4");
+//		
+//		while(a1<1) {
+//			System.out.println("11");
+//			a1++;
+//		}
+//		System.out.println("5");
+//		
+//		switch(a) {
+//		case 1 :
+//			System.out.println("7");
+//			
+//		case 2 :
+//			System.out.println("8");
+//		case 3 :
+//			System.out.println("9");
+//			break;
+//		default : 
+//			System.out.println("6");
+//			break;
+//		}
+//		System.out.println("10");
+		
+		//문제2
+		
+		
+//		int a = 2;
+//		int b = 1;
+//		b++;
+//		System.out.println(a);
+//		System.out.println(b);
+//		
+//		while(b<15) {
+//			a=a+1;
+//			b=b+a;
+//		}
+//		System.out.println(a);
+//		System.out.println(b);
+		
+		
+		//문제3
+		
+//		int a = 4;
+//		System.out.println("p1");
+//		while(a<5) {
+//			
+//		if(a<5) {
+//			System.out.println("p3");
+//		}else  {
+//			System.out.println("p2");
+//		}
+//			a++;
+//		}
+//		switch(a) {
+//		case 5 :
+//			System.out.println("p4");
+//			System.out.println("p5");
+//			break;
+//		default :
+//			System.out.println("p6");
+//			System.out.println("p7");
+//			break;
+//			
+//			
+//		}
+//		System.out.println("p8");
+//		System.out.println("p9");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -275,6 +439,7 @@ public class Javaclass_01 {
 //		}
 		
 	
+		
 		
 		
 		
