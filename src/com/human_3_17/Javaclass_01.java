@@ -439,7 +439,24 @@ public class Javaclass_01 {
 //		}
 //		System.out.println(not);
 		
+		
+//		int count = 0;
+//		
+//		for(int i =0; i <5;i++) {
+//			
+//			System.out.println(">>>>");
+//			int input=Integer.parseInt(
+//					new java.util.Scanner(System.in).nextLine());
+//			
+//			if(input<=60) {
+//				count++;
+//				
+//			}
+//		}
+//		System.out.println(count);
+		
 		//Q10
+		
 //		int j =0;
 //		
 //		for(int i=1;i<100;i++) {
@@ -449,6 +466,17 @@ public class Javaclass_01 {
 //			}
 //			System.out.println(i+":"+j);
 //			}
+		
+		//Q10 쌤 풀이
+		
+//				int sum=0;
+//				int i = 1;
+//				
+//				while(sum+i<=100) {
+//					sum=sum+i;
+//					i++;
+//				}
+//				System.out.println(sum);
 		
 		//Q11
 		
@@ -466,6 +494,17 @@ public class Javaclass_01 {
 //			System.out.println(a);
 //		}
 		
+		//Q11쌤풀이
+		
+//		String str="hi";
+//		int count = 5;
+//		
+//		for(int i =0;i<count;i++) {
+//			System.out.println(str);
+//		}
+		
+		
+		
 		//Q12
 		
 //		java.util.Scanner sc = new java.util.Scanner(System.in);
@@ -482,6 +521,167 @@ public class Javaclass_01 {
 //		while(x==a) {
 //			x++;
 //		}
+		
+		
+		
+		//Q12쌤풀이
+		
+//		int a = 10;
+//		int b = 20;
+//		
+//		int sum = 0;
+//		
+//		if(a>b) {
+//			int t=a;
+//			a=b;
+//			b=t;
+//		}
+//		for(int k =a;k<=b;k++) {
+//			//System.out.println(k);
+//			sum=sum+k;
+//		}
+//		System.out.println(sum);
+		
+		//Q14쌤풀이
+		
+//		int a=5;
+//		int b =6;
+//		
+//		for(int i =5;i<a+6;i++) {
+//			System.out.println(i);
+//		}
+		
+		//Q15
+		
+//		String str = "";
+//		
+//		for(;!str.equals("종료");) {
+//			System.out.println(">>");
+//			str= new java.util.Scanner(System.in).nextLine();
+//			
+//		}
+//		
+//		String str = "";
+//		
+//		while(!str.equals("종료")) {
+//			System.out.println(">>");
+//			str= new java.util.Scanner(System.in).nextLine();
+//		}
+		
+		
+		//Q17
+		
+//		int input=5;
+//		int sum =0;
+//		
+//		for(int i =1;i<=1000;i++) {
+//			if(i%input==0) {
+//				System.out.println(i);
+//			}
+//		}
+		
+		//Q18
+		
+		int colum=10;//열 숫자
+		
+		for(int i =0;i<20;i++) {
+			System.out.print(i+"\t");
+			if(i%colum==0) {
+				System.out.println();
+			}
+		}
+		
+		
+		//Q19
+		
+//		int rc =0;
+//		int wc =0;
+//		int coin = 0;
+//		
+//		
+//		while(rc!=3) {
+//			coin = (int) (Math.random()*2);
+//			
+//			System.out.println("앞 = 0 뒤 = 1");
+//			int inputCoin=Integer.parseInt(
+//					new java.util.Scanner(System.in).nextLine());
+//					
+//			if(coin==inputCoin) {
+//				rc++;
+//				System.out.println(rc);
+//			}else {
+//				wc++;
+//				System.out.println(wc);
+//
+//			}
+//		}
+		
+		
+		//Q20
+		
+//		int right =0;
+//		int wrong =0;
+//		int dice = 0;
+//		
+//		
+//		while(right!=10) {
+//			dice = (int)(Math.random()*6);
+//			
+//			System.out.println("1~6까지 선택");
+//			System.out.println(">>>>>");
+//			int inputDice=Integer.parseInt(
+//					new java.util.Scanner(System.in).nextLine());
+//			
+//			
+//			if(dice==inputDice) {
+//				right++;
+//
+//			}else {
+//				wrong++;
+//
+//			}
+//			System.out.println("맞춘횟수"+right);
+//			System.out.println("틀린횟수"+wrong);
+//		}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
