@@ -352,19 +352,62 @@ public class Javaclass_03 {
 		
 		
 
+		//Q2
 		
-	
+//	int []arr=new int[5];
+//		
+//	for(int i =1;i<arr.length;i++) {
+//			
+//		System.out.println(i+"번째 입력>>");
+//		arr[i]=Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//			
+//	}
+//	
+//	System.out.println("찾을 숫자 입력>>");
+//	int findNum = Integer.parseInt(new java.util.Scanner(System.in).nextLine());
+//		
+//	boolean isFlag=true;
+//	
+//	for(int i =0;i<arr.length;i++) {
+//		if(arr[i]==findNum) {
+//			System.out.println(i+"번째값 :"+arr[i]);
+//			isFlag=false;
+//		}
+//	}
+//		if(isFlag) {
+//			System.out.println("못찾았다리~~~~~~~~~~~~~");
+//		}
 		
+			//Q3
 		
+//		int arrSize=Integer.parseInt(
+//				new java.util.Scanner(System.in).nextLine());
+//		
+//		int arr[]=new int[arrSize];
+//		
+//		for(int i =0;i<arr.length;i++) {
+//			arr[i]=i%3+1;
+//		}
+//		for(int i =0;i<arr.length;i++) {
+//			System.out.println(Arrays.toString(arr));
+//		}
 		
+		//Q4
 		
-		
-		
-		
-		
-		
-		
-		
+//		int arr[]= {1,2,3,};
+//		
+//		int arr1[]=new int [arr.length*2];
+//		int arr2[]=new int [arr.length*2];
+//		
+//		for(int i =0;i<3;i++) {
+//			arr1[i]=arr[i];
+//		}
+//		for(int i=0;i<3;i++) {
+//			arr1[arr.length+i]=arr[arr.length-i-1];
+//		}
+//		for(int i=0;i<arr1.length;i++) {
+//			System.out.println(arr1[i]);
+//		}
 		
 		
 		
