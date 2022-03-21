@@ -252,7 +252,7 @@ public class Javaclass_03 {
 //}
 		
 		
-			//Q1
+			//Q0
 		
 //		boolean student[]=new boolean[50];
 //		String a = "10";
@@ -275,7 +275,7 @@ public class Javaclass_03 {
 //			}
 //		}
 		
-			//Q2
+			//Q1
 		
 //		int account =0;
 //		String a = "1111";
@@ -318,49 +318,9 @@ public class Javaclass_03 {
 //		System.out.println("프로그램 종료");
 		
 		
-			//Q2
-		
-//		int change1000=0;
-//		int change500=0;
-//		int change100=0;
-//		int change50=0;
-//		int change10=0;
-//		int moneyInput = 0;
-//		int a =0;
-//		
-//		while(a==0) {
-//			System.out.println("금액을 입력하시오 >>>");
-//			java.util.Scanner sc = new java.util.Scanner(System.in);
-//			int x = Integer.parseInt(sc.nextLine());
-//			
-//			if(x/1000==0) {
-//				change1000++;
-//			}else {
-//				if(x/500==0) {
-//					change500++;
-//				}else {
-//					if(x/100==0) {
-//						change100++;
-//					}else {
-//						if(x/50==0) {
-//							change50++;
-//							
-//						}
-//					}
-//				}
-//			}
-//			
-//			
-//			System.out.println(change1000+""+change500+""+change100+""+change50+""+change10);
-//			
-//			
-//		}
 		
 		
-		
-		
-		
-			//Q2
+			//Q3
 		
 //		int a =0;
 //		
@@ -474,6 +434,15 @@ public class Javaclass_03 {
 
 
 		
+
+		
+		
+		
+		
+		
+		
+		//Q6
+		
 //		int adul=0;
 //		int chil =0;
 //		int silv =0;
@@ -482,198 +451,95 @@ public class Javaclass_03 {
 //		int sMoney=0;
 //		
 //		
+//		
 //		String a = "1111";
+//		String b = "1111";
 //		
 //			while(!a.equals("0")) {
-//			System.out.println("사람 :      대인     청소년     노인");
-//			System.out.println("주간권     46000원   39000    36000");
-//			System.out.println("오후권     38000원   32000    29000");
-//			System.out.println("윈터야간권  20000원   17000    16000");
-//			System.out.println("2일권      74000원   62000    58000");
-//			System.out.println("종료를 원하시면 0을 눌러주세요");
-//			System.out.println(">>>>>");
-//			java.util.Scanner sc = new java.util.Scanner(System.in);
-//			a = new Scanner(System.in).nextLine();
-//		
-//			if(a.equals("대인")) {
-//				adul++;
-//				aMoney=aMoney+46000;
-//			}else {
-//				if(a.equals("청소년")) {
-//					chil++;
-//					cMoney=cMoney+39000;
-//				}else {
-//					if(a.equals("노인")) {
-//						silv++;
-//						sMoney=sMoney+36000;
-//					}
+//				
+//				System.out.println("주간권     오후권   윈터야간권    2일권");
+//				System.out.println("종류를 선택하시오 >>>>>");
+//				System.out.println("종료를 원하시면 0 을 눌러주세요");
+//				java.util.Scanner sc = new java.util.Scanner(System.in);
+//				a = new Scanner(System.in).nextLine();
+//				
+//				if(a.equals("주간권")) {
+//					System.out.println("종류 :      1.대인     2.청소년     3.노인");
+//					System.out.println(">>>>>");
+//				b = new Scanner(System.in).nextLine();
 //					
-//					
-//			}
-//			
-//			
-//			}
-//			
-//			}
-//			
+//					if(b.equals("1")) {
+//						adul++;
+//						aMoney=aMoney+46000;
+//					}else if(b.equals("2")) {
+//							chil++;
+//							cMoney=cMoney+39000;
+//						}else if(b.equals("3")) {
+//								silv++;
+//								sMoney=sMoney+36000;
+//								
+//							}
+//							
+//					}else if(a.equals("오후권")) {
+//					System.out.println("종류 :      1.대인     2.청소년     3.노인");
+//					System.out.println(">>>>>");
+//				b = new Scanner(System.in).nextLine();
 //				
-//				
-//
-//
-//		System.out.println("대인"+adul+"명"+aMoney+"원");
-//		System.out.println("청소년"+chil+"명"+cMoney+"원");
-//		System.out.println("노인"+silv+"명"+sMoney+"원");
-		
-		
-//		int adul=0;
-//		int chil =0;
-//		int silv =0;
-//		int aMoney=0;
-//		int cMoney=0;
-//		int sMoney=0;
-//		
-//		String a = "1111";
-//		
-//		while(!a.equals("0")) {
-//			
-//			System.out.println("주간권     오후권   윈터야간권    2일권");
-//			System.out.println("종류를 선택하시오 >>>>>");
-//			java.util.Scanner sc = new java.util.Scanner(System.in);
-//			a = new Scanner(System.in).nextLine();
-//			
-//			if(a.equals("주간권")) {
-//				System.out.println("종류 :      1.대인     2.청소년     3.노인");
-//				System.out.println(">>>>>");
-//				new Scanner(System.in).nextLine();
-//				
-//				if(a.equals("1")) {
+//				if(b.equals("1")) {
 //					adul++;
-//					aMoney=aMoney+46000;
-//				}else {
-//					if(a.equals("2")) {
+//					aMoney=aMoney+38000;
+//				}else if(b.equals("2")) {
 //						chil++;
-//						cMoney=cMoney+36000;
-//					}else {
-//						if(a.equals("3")) {
+//						cMoney=cMoney+32000;
+//					}else if(b.equals("3")) {
 //							silv++;
-//							sMoney=sMoney+6000;
+//							sMoney=sMoney+29000;
 //						}
-//					}
+//						
+//						
+//				}else if(a.equals("윈터야간권")) {
+//					System.out.println("종류 :      1.대인     2.청소년     3.노인");
+//					System.out.println(">>>>>");
+//				b = new Scanner(System.in).nextLine();
+//				
+//				if(b.equals("1")) {
+//					adul++;
+//					aMoney=aMoney+20000;
+//				}else if(b.equals("2")) {
+//						chil++;
+//						cMoney=cMoney+17000;
+//					}else if(b.equals("3")) {
+//							silv++;
+//							sMoney=sMoney+16000;
+//					
+//			}
+//				}else if(b.equals("2일권")) {
+//					System.out.println("종류 :      1.대인     2.청소년     3.노인");
+//					System.out.println(">>>>>");
+//				b = new Scanner(System.in).nextLine();
+//				
+//				if(b.equals("1")) {
+//					adul++;
+//					aMoney=aMoney+74000;
+//				}else if(b.equals("2")) {
+//						chil++;
+//						cMoney=cMoney+62000;
+//					}else if(b.equals("3")) {
+//							silv++;
+//							sMoney=sMoney+58000;
+//					
+//			
+//			}
+//				}else if(a.equals("0")) {
+//					System.out.println("종료합니다. 감사합니다링~~~~~~~~ㅋㅋㅋㅋㅋㅋㅋㅋ");
+//				}else {
+//					System.out.println("잘못입력");
 //				}
 //			}
-//		}
-//		
-//		System.out.println("대인"+adul+"명"+aMoney+"원");
-//		System.out.println("청소년"+chil+"명"+cMoney+"원");
-//		System.out.println("노인"+silv+"명"+sMoney+"원");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		int adul=0;
-		int chil =0;
-		int silv =0;
-		int aMoney=0;
-		int cMoney=0;
-		int sMoney=0;
-		
-		
-		
-		String a = "1111";
-		String b = "1111";
-		
-			while(!a.equals("0")) {
-				
-				System.out.println("주간권     오후권   윈터야간권    2일권");
-				System.out.println("종류를 선택하시오 >>>>>");
-				System.out.println("종료를 원하시면 0 을 눌러주세요");
-				java.util.Scanner sc = new java.util.Scanner(System.in);
-				a = new Scanner(System.in).nextLine();
-				
-				if(a.equals("주간권")) {
-					System.out.println("종류 :      1.대인     2.청소년     3.노인");
-					System.out.println(">>>>>");
-				b = new Scanner(System.in).nextLine();
-					
-					if(b.equals("1")) {
-						adul++;
-						aMoney=aMoney+46000;
-					}else if(b.equals("2")) {
-							chil++;
-							cMoney=cMoney+39000;
-						}else if(b.equals("3")) {
-								silv++;
-								sMoney=sMoney+36000;
-								
-							}
-							
-					}else if(a.equals("오후권")) {
-					System.out.println("종류 :      1.대인     2.청소년     3.노인");
-					System.out.println(">>>>>");
-				b = new Scanner(System.in).nextLine();
-				
-				if(b.equals("1")) {
-					adul++;
-					aMoney=aMoney+38000;
-				}else if(b.equals("2")) {
-						chil++;
-						cMoney=cMoney+32000;
-					}else if(b.equals("3")) {
-							silv++;
-							sMoney=sMoney+29000;
-						}
-						
-						
-				}else if(a.equals("윈터야간권")) {
-					System.out.println("종류 :      1.대인     2.청소년     3.노인");
-					System.out.println(">>>>>");
-				b = new Scanner(System.in).nextLine();
-				
-				if(b.equals("1")) {
-					adul++;
-					aMoney=aMoney+20000;
-				}else if(b.equals("2")) {
-						chil++;
-						cMoney=cMoney+17000;
-					}else if(b.equals("3")) {
-							silv++;
-							sMoney=sMoney+16000;
-					
-			}
-				}else if(b.equals("2일권")) {
-					System.out.println("종류 :      1.대인     2.청소년     3.노인");
-					System.out.println(">>>>>");
-				b = new Scanner(System.in).nextLine();
-				
-				if(b.equals("1")) {
-					adul++;
-					aMoney=aMoney+74000;
-				}else if(b.equals("2")) {
-						chil++;
-						cMoney=cMoney+62000;
-					}else if(b.equals("3")) {
-							silv++;
-							sMoney=sMoney+58000;
-					
-			
-			}
-				}else if(a.equals("0")) {
-					System.out.println("종료합니다. 감사합니다링~~~~~~~~ㅋㅋㅋㅋㅋㅋㅋㅋ");
-				}else {
-					System.out.println("잘못입력");
-				}
-			}
-			
-			System.out.println("대인"+adul+"명"+aMoney+"원");
-			System.out.println("청소년"+chil+"명"+cMoney+"원");
-			System.out.println("노인"+silv+"명"+sMoney+"원");
+//			
+//			System.out.println("대인"+adul+"명"+aMoney+"원");
+//			System.out.println("청소년"+chil+"명"+cMoney+"원");
+//			System.out.println("노인"+silv+"명"+sMoney+"원");
 		
 		
 		
