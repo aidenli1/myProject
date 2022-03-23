@@ -434,6 +434,10 @@ public class Javaclass_03 {
 
 
 		
+		//Q5
+		
+		
+		
 
 		
 		
