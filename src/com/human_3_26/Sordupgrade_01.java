@@ -147,7 +147,10 @@ public class Sordupgrade_01 {
 				System.out.println("");
 			}
 			
-			
+			if(money<=0) {
+				System.out.println("보유 머니 전부 소진");
+				break;
+			}
 			
 			}
 		}
